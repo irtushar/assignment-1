@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-image: url(/assignment-1/Assets/Hero-bg.png);
+    height: 698px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 151;
+    width: 1140;
+    padding: 2rem 5%;
+}
+
+.logo {
+    height: 51px;
+    width: 99px;
+    color: #4E47FF;
+    font-size: 1.8rem;
+    font-weight: 700;
+         
+}
+
+.signup-btn {
+    height: 48px;
+    width: 132px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%;
+    gap: 2rem;
+}
+
+.banner-heading {
+    font-size: 3.3rem;
+    color: #252432;
+    height: 150px;
+    width: 905px;
+}
+
+.focus-btn {
+    padding: 1rem 2rem;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    
+ 
