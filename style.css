@@ -196,7 +196,7 @@ gap: 1.5rem;
 }
 
 .contact-title {
-font-size: 3.5rem;
+font-size: 4.5rem;
 color: #252432;
 margin-bottom: 1rem;
 line-height: 1;
@@ -256,4 +256,54 @@ line-height: 1;
     margin-top: 0.5rem;
 }
 
-   
+/*Footer Section*/
+
+footer {
+  background: #f8f9fa;
+  padding: 4rem 1rem; 
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.logo {
+  color: #4E47FF;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  line-height: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: fit-content;
+}
+.footer-text {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto; 
+  margin-bottom:1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+  width: 100%; 
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
