@@ -21,7 +21,7 @@
     padding: 2rem 5%;
 }
 
-.logo {
+.nav-logo {
     height: 51px;
     width: 99px;
     color: #4E47FF;
@@ -300,3 +300,17 @@ line-height: 1;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
+
+/* Hover effect or animation on the all the buttons */
+.signup-btn:hover, .focus-btn:hover, .btn:hover, .submit-btn:hover {
+  background-color: #3a35d6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.25);
+}
+
+/* Active/click effect */
+.signup-btn:active, .focus-btn:active, .btn:active, .submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(78, 71, 255, 0.2);
+}
+
