@@ -133,6 +133,7 @@ gap: 1.5rem;
     background-color: #e5e7ff;
     text-align: center;
     border-radius: 10px;
+    justify-content: space-between;
 }
 
 .user-header{
@@ -179,6 +180,112 @@ gap: 1.5rem;
     font-weight: 500;
 }
 
+
+/*User Feedback Section*/
+.u-title {
+    font-size: 2.5rem;
+    color: #252432;
+    margin: 0 auto 1rem;
+    max-width: 1140px;
+    line-height: 2;
+    text-align: center;  
+    display: block;      
+    width: 100%;        
+    padding: 0 20px;  
+    box-sizing: border-box; 
+}
+
+.user-feedback {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 45px;
+  display:flex;
+  flex-direction: column;
+  margin:0 auto;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  justify-content:center;
+  gap: 20px; 
+  width: 100%;
+  padding: 0;
+}
+
+.user-feedback {
+  flex: 0 0 366px; 
+  height: 243px;
+  margin: 0; 
+  
+}
+
+.user-feedback .rating {
+  margin-bottom: 45px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.feedback-content {
+  margin-bottom: 45px;
+}
+
+.feedback-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.feedback-text {
+  font-style:normal;
+  color: #7f8c8d;
+}
+
+.company-name {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reviewer-details {
+  font-size: 1em;
+}
+
+.reviewer-name {
+  font-weight: normal;
+}
+
+.review-date {
+  color: #7f8c8d;
+}
+
+
 /*Let’s Get In Touch Section*/
 .contact-section {
     max-width: 1140px;
@@ -189,7 +296,6 @@ gap: 1.5rem;
     gap: 4rem;
 }
 
-/* Left Side - Title Section */
 .contact-header {
     flex: 1;
     padding-top: 8.5rem;
@@ -202,7 +308,6 @@ margin-bottom: 1rem;
 line-height: 1;
 }
 
-/* Right Side - Form Section */
 .contact-form-container {
     background: white;
     padding: 2.5rem;
@@ -255,6 +360,7 @@ line-height: 1;
     cursor: pointer;
     margin-top: 0.5rem;
 }
+
 
 /*Footer Section*/
 .footer {
